@@ -216,20 +216,14 @@ bindsym $mod+r mode "resize"
 #
 # Read `man 5 sway-bar` for more information about this section.
 bar {
-  position top
+    position top
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-  #  status_command while date +'%Y-%m-%d %X'; do sleep 1; done
-
-  colors {
-    statusline #ffffff
-    background #323232
-    inactive_workspace #32323200 #32323200 #5c5c5c
-  }
-  swaybar_command waybar
-  #gaps inner 10
-  #gaps outer 5
+    #  status_command while date +'%Y-%m-%d %X'; do sleep 1; done
+    swaybar_command waybar
+    #gaps inner 10
+    #gaps outer 5
 }
 
 gaps inner 10
@@ -242,5 +236,30 @@ titlebar_border_thickness 0
 
 #for_window [class="kitty"] opacity 0.9
 for_window [app_id="kitty"] opacity 0.9
+
+## Colours
+set $base00 #000000
+set $base01 #545454
+set $base02 #bbbbbb
+set $base03 #ffffff
+set $base04 #bbbbbb
+set $base05 #ffffff
+set $base06 #ffffff
+set $base07 #ffffff
+set $base08 #ff5555
+set $base09 #ffff55
+set $base0A #ffff55
+set $base0B #55ff55
+set $base0C #55ffff
+set $base0D #5555ff
+set $base0E #ff55ff
+set $base0F #bbbbbb
+
+## Window Colours
+client.focused   $base0D  $base00  $base05  $base08  $base0C
+client.focused_inactive  $base01  $base00  $base05  $base08  $base01
+client.unfocused   $base01  $base00  $base02  $base08  $base01
+client.urgent   $base08  $base00  $base05  $base08  $base08
+client.placeholder       $base01  $base00  $base02  $base01  $base02
 
 include /etc/sway/config.d/*
