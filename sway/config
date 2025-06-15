@@ -251,9 +251,9 @@ set $base0E #ff55ff
 set $base0F #bbbbbb
 
 ## Window Colours
-client.focused   $base0D  $base00  $base05  $base08  $base0D
-client.focused_inactive  $base01  $base00  $base05  $base08  $base01
-client.unfocused   $base01  $base00  $base02  $base08  $base01
+client.focused   $base01  $base0D  $base05  $base0D  $base0D
+client.focused_inactive  $base01  $base00  $base05  $base0D  $base01
+client.unfocused   $base01  $base00  $base02  $base0D  $base01
 client.focused_tab_title $base0D  $base0D  $base05  
 
 include /etc/sway/config.d/*
