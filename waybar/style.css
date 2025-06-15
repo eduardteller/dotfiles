@@ -12,11 +12,11 @@
 
 @keyframes blink-warning {
 	70% {
-		color: #000000;
+		color: #09090b;
 	}
 
 	to {
-		color: #000000;
+		color: #09090b;
 		background-color: #ffff55;
 	}
 }
@@ -47,7 +47,7 @@
 
 /* The whole bar */
 #waybar {
-	background: #000000;
+	background: #09090b;
 	color: #ffffff;
 	font-family: JetBrainsMono Nerd Font, sans-serif;
 	font-size: 13px;
@@ -185,6 +185,7 @@
 	/* border-color: white; */
 	color: #ffffff;
 	background-color: #5555ff;
+	/* border-radius: 8px; */
 }
 
 #workspaces button.urgent {

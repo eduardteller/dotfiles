@@ -29,11 +29,9 @@
         "network",
         "memory",
         "cpu",
-        "temperature",
-        "custom/keyboard-layout",
+	"pulseaudio",
         "battery",
         "tray",
-        "clock#date",
         "clock#time"
     ],
 
@@ -76,7 +74,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "  {usage}% ({load})", // Icon: microchip
+        "format": "  {usage}%", // Icon: microchip
         "states": {
           "warning": 70,
           "critical": 90
@@ -117,7 +115,7 @@
 
     "sway/window": {
         "format": "{}",
-        "max-length": 120
+        "max-length": 60
     },
 
     "sway/workspaces": {
