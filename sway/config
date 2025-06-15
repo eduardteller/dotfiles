@@ -5,7 +5,7 @@
 # Read `man 5 sway` for a complete reference.
 
 ### Variables
-theme:font pango:JetBrainsMono Nerd Font 10
+font pango:JetBrainsMono Nerd Font 10
 #
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
