@@ -223,11 +223,11 @@ bar {
 
 gaps inner 4
 gaps outer 4
-smart_gaps off
+#smart_gaps off
 default_border pixel 2
 default_floating_border none
 hide_edge_borders none
-titlebar_border_thickness 0
+titlebar_border_thickness pixel 2
 
 #for_window [class="kitty"] opacity 0.9
 for_window [app_id="kitty"] opacity 0.9
