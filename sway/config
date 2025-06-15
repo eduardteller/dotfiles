@@ -21,7 +21,7 @@ set $menu rofi -show drun
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/teller/Downloads/wallhaven-13qk8w.jpg fill
+output * bg /home/teller/Downloads/wallhaven-43zqld.jpg fill
 #
 # Example configuration:
 #
@@ -222,18 +222,18 @@ bar {
     # The default just shows the current date and time.
   #  status_command while date +'%Y-%m-%d %X'; do sleep 1; done
 
-  colors {
-    statusline #ffffff
-    background #323232
-    inactive_workspace #32323200 #32323200 #5c5c5c
-  }
+  #colors {
+   # statusline #ffffff
+    #background #323232
+    #inactive_workspace #32323200 #32323200 #5c5c5c
+#  }
   swaybar_command waybar
   #gaps inner 10
   #gaps outer 5
 }
 
-gaps inner 10
-gaps outer 5
+gaps inner 4
+gaps outer 4
 smart_gaps off
 default_border pixel 2
 default_floating_border none
