@@ -248,36 +248,25 @@ bar {
 #gaps inner 4
 #gaps outer 4
 #smart_gaps off
-default_border pixel 2
+default_border pixel 1
 default_floating_border none
 hide_edge_borders none
-titlebar_border_thickness 2
+titlebar_border_thickness 1
 
 #for_window [class="kitty"] opacity 0.9
 #for_window [app_id="kitty"] opacity 0.9
 
-## Colours
-set $base00 #000000
-set $base01 #545454
-set $base02 #bbbbbb
-set $base03 #ffffff
-set $base04 #bbbbbb
-set $base05 #ffffff
-set $base06 #ffffff
-set $base07 #ffffff
-set $base08 #ff5555
-set $base09 #ffff55
-set $base0A #ffff55
-set $base0B #55ff55
-set $base0C #55ffff
-set $base0D #5555ff
-set $base0E #ff55ff
-set $base0F #bbbbbb
+### Colours
+set $base02 #B0B0B0 
+set $baseBackground #121212 
+set $baseBorderInactive #444444
+set $baseForeground #E0E0E0
+set $baseBorder #256cfa
 
 ## Window Colours
-client.focused   $base0D  $base0D  $base05  $base0D  $base0D
-client.focused_inactive  $base0D  $base00  $base05  $base0D  $base01
-client.unfocused   $base0D  $base00  $base02  $base0D  $base01
-client.focused_tab_title $base0D  $base0D  $base05  
+client.focused   $baseBorder  $baseBorder  $baseForeground  $baseBorder  $baseBorder
+client.focused_inactive  $baseBorder  $baseBackground  $baseForeground  $baseBorder  $baseBorderInactive
+client.unfocused   $baseBorder  $baseBackground  $base02  $baseBorder  $baseBorderInactive
+client.focused_tab_title $baseBorder  $baseBorder  $baseForeground  
 
 include /etc/sway/config.d/*
