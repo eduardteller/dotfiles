@@ -21,6 +21,10 @@ set $menu rofi -show drun
 
 seat seat0 xcursor_theme Bibata-Modern-Classic
 exec 1password --silent
+
+# Start system tray applets
+exec blueman-applet
+exec nm-applet
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
