@@ -170,7 +170,7 @@ exec_always autotiling -w 1 3 5 7 9
     bindsym $mod+v splitv
 
     # Switch the current container between different layout styles
-    bindsym $mod+s exec autotiling -l spiral
+    #bindsym $mod+s exec autotiling -l spiral
     bindsym $mod+w layout tabbed
     bindsym $mod+e layout toggle split
 
