@@ -29,6 +29,7 @@ output * bg /home/teller/Downloads/wallhaven-43zqld.jpg fill
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
+exec dunst
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
@@ -244,8 +245,8 @@ bar {
     swaybar_command waybar
 }
 
-gaps inner 4
-gaps outer 4
+#gaps inner 4
+#gaps outer 4
 #smart_gaps off
 default_border pixel 2
 default_floating_border none
@@ -253,7 +254,7 @@ hide_edge_borders none
 titlebar_border_thickness 2
 
 #for_window [class="kitty"] opacity 0.9
-for_window [app_id="kitty"] opacity 0.9
+#for_window [app_id="kitty"] opacity 0.9
 
 ## Colours
 set $base00 #000000
