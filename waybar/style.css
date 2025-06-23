@@ -17,18 +17,18 @@
 
 	to {
 		color: #121212;
-		background-color: #daa520;
+		background-color: #dfd460;
 	}
 }
 
 @keyframes blink-critical {
 	70% {
-		color: #e0e0e0;
+		color: #bbbbbb;
 	}
 
 	to {
-		color: #e0e0e0;
-		background-color: #ff6f61;
+		color: #bbbbbb;
+		background-color: #fa2573;
 	}
 }
 
@@ -48,7 +48,7 @@
 /* The whole bar */
 #waybar {
 	background: #121212;
-	color: #e0e0e0;
+	color: #bbbbbb;
 	font-family: JetBrainsMono Nerd Font, sans-serif;
 	font-size: 13px;
 }
@@ -79,11 +79,11 @@
 }
 
 #battery.warning {
-	color: #daa520;
+	color: #dfd460;
 }
 
 #battery.critical {
-	color: #ff6f61;
+	color: #fa2573;
 }
 
 #battery.warning.discharging {
@@ -105,11 +105,11 @@
 }
 
 #cpu.warning {
-	color: #daa520;
+	color: #dfd460;
 }
 
 #cpu.critical {
-	color: #ff6f61;
+	color: #fa2573;
 }
 
 #memory {
@@ -119,18 +119,18 @@
 }
 
 #memory.warning {
-	color: #daa520;
+	color: #dfd460;
 }
 
 #memory.critical {
-	color: #ff6f61;
+	color: #fa2573;
 	animation-name: blink-critical;
 	animation-duration: 2s;
 }
 
 #mode {
 	background: #444444;
-	border-top: 2px solid #e0e0e0;
+	border-top: 2px solid #bbbbbb;
 	/* To compensate for the top border and still have vertical centering */
 	padding-bottom: 2px;
 }
@@ -140,7 +140,7 @@
 }
 
 #network.disconnected {
-	color: #daa520;
+	color: #dfd460;
 }
 
 #pulseaudio {
@@ -160,7 +160,7 @@
 }
 
 #temperature.critical {
-	color: #ff6f61;
+	color: #fa2573;
 }
 
 #tray {
@@ -177,18 +177,18 @@
 	padding-bottom: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
-	color: #444444;
+	color: #545454;
 }
 
 #workspaces button.focused {
 	border-color: #256cfa;
 	/* border-color: white; */
-	color: #e0e0e0;
+	color: #bbbbbb;
 	background-color: #256cfa;
 	/* border-radius: 8px; */
 }
 
 #workspaces button.urgent {
-	border-color: #ff6f61;
-	color: #ff6f61;
+	border-color: #fa2573;
+	color: #fa2573;
 }

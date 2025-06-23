@@ -257,10 +257,10 @@ titlebar_border_thickness 1
 #for_window [app_id="kitty"] opacity 0.9
 
 ### Colours
-set $base02 #B0B0B0 
+set $base02 #888888
 set $baseBackground #121212 
-set $baseBorderInactive #121212
-set $baseForeground #E0E0E0
+set $baseBorderInactive #545454
+set $baseForeground #bbbbbb
 set $baseBorder #256cfa
 
 ## Window Colours
