@@ -259,7 +259,7 @@ titlebar_border_thickness 1
 ### Colours
 set $base02 #B0B0B0 
 set $baseBackground #121212 
-set $baseBorderInactive #444444
+set $baseBorderInactive #121212
 set $baseForeground #E0E0E0
 set $baseBorder #256cfa
 

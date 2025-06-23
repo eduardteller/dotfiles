@@ -12,11 +12,11 @@
 
 @keyframes blink-warning {
 	70% {
-		color: #222222;
+		color: #121212;
 	}
 
 	to {
-		color: #222222;
+		color: #121212;
 		background-color: #daa520;
 	}
 }
@@ -47,7 +47,7 @@
 
 /* The whole bar */
 #waybar {
-	background: #222222;
+	background: #121212;
 	color: #e0e0e0;
 	font-family: JetBrainsMono Nerd Font, sans-serif;
 	font-size: 13px;
