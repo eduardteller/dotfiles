@@ -109,7 +109,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#zstyle :omz:plugins:ssh-agent quiet yes
+zstyle :omz:plugins:ssh-agent quiet yes
 zstyle :omz:plugins:ssh-agent lazy yes
 zstyle :omz:plugins:ssh-agent agent-forwarding yes
 zstyle :omz:plugins:ssh-agent identities /home/teller/.ssh/arch
